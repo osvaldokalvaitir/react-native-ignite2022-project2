@@ -6,6 +6,7 @@ import { ButtonIcon } from '@components/ButtonIcon';
 import { HighLight } from '@components/Highlight';
 import { Input } from '@components/Input';
 import { Filter } from '@components/Filter';
+import { PlayerCard } from '@components/PlayerCard';
 
 import { Container, Form, HeaderList, NumbersOfPlayers } from './styles';
 
@@ -51,6 +52,17 @@ export function Players() {
           {players.length}
         </NumbersOfPlayers>
       </HeaderList>
+
+      <FlatList
+        data={players}
+        keyExtractor={item => item}
+        renderItem={({ item }) => (
+          <PlayerCard
+            name={item}
+            onRemove={() => { }}
+          />
+        )}
+      />
     </Container>
   );
 }

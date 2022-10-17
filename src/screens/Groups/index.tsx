@@ -38,6 +38,7 @@ export function Groups() {
 
       <Button
         title="Criar nova turma"
+        onPress={handleNewGroup}
       />
     </Container>
   );

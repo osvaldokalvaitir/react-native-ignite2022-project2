@@ -24,7 +24,7 @@ export function Groups() {
     try {
       const data = await groupsGetAll();
       setGroups(data);
-    } catch(error) {
+    } catch (error) {
       console.log(error);
     }
   };

@@ -9,7 +9,7 @@ export async function groupsGetAll() {
     const groups: string[] = storage ? JSON.parse(storage) : [];
 
     return groups;
-  } catch(error) {
+  } catch (error) {
     throw error;
   }
 }

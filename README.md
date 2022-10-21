@@ -9,7 +9,7 @@
 </h3>
 
 <p align="center">
-  :pushpin: Ignite Teams Application using React Native, Expo and TypeScript
+  :shield: Ignite Teams Application using React Native, Expo, TypeScript, babel-plugin-module-resolver, styled-components, phosphor-react-native, React Native Async Storage, @react-navigation/native and @react-navigation/native-stack
 </p>
 
 <p align="center">
